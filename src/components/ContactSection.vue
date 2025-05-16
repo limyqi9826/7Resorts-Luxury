@@ -272,4 +272,55 @@ export default {
 .alert {
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .col-lg-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .list-group-item {
+    padding: 15px;
+  }
+
+  .list-title {
+    margin: 5px 0;
+  }
+
+  .list-body {
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+}
 </style>
